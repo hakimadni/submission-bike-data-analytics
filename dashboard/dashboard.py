@@ -16,7 +16,8 @@ df = load_data()
 
 # Sidebar
 with st.sidebar:
-    st.image('https://github.com/hakimadni/submission-bike-data-analytics/blob/8a66ac9aaa63cd9752927a4b946406215cd31c87/rent_17677632.png')
+    htp="https://raw.githubusercontent.com/hakimadni/submission-bike-data-analytics/main/rent_17677632.png"
+    st.image(htp, caption= 'logo', width=350)
     st.sidebar.header('Filter Data')
     selected_year = st.sidebar.selectbox('Select Year', [2011, 2012, 'Both'])
     st.sidebar.header("Visit my Profile:")
